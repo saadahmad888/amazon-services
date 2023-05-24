@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Vega A Powerfull Responsive Business Website">
+    <meta name="author" content="CodeGlamour">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Business, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Contact Us - VEGA, A Powerfull Business HTML Website</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Slick Css -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+    <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
+    <nav class="navbar navbar-expand-md navbar-light nav-color" id="nav-color">
+        <div class="container">
+            <a href="index.html" id="logo"><img src="img/logo-dark.png" alt=""></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse navbar-expand-lg" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html#services">Services</a>
+                  </li>
+				          <li class="nav-item">
+                      <a class="nav-link" href="index.html#portfolios">Portfolio</a>
+                  </li>
+				          <li class="nav-item">
+                      <a class="nav-link" href="index.html#pricing">Pricing</a>
+                  </li>
+				          <li class="nav-item">
+                      <a class="nav-link" href="blogs.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link btn btn-white" href="booking.html">Book a Call Now</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+    </nav>        <!--End NAVBAR WITH RESPONSIVE TOGGLE-->
+    </header>
+    <div class="location-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13451.3032671564!2d74.0565065697754!3d32.557493650000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1610452897854!5m2!1sen!2s" width="100" height="100" style="filter: invert(90%); height: 500px; border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+     <!-- Contact Section Start -->
+   <section id="contact" class="contact-area section-big">
+        <div class="container">
+            <div class="row wow fadeIn">
+               <!-- <div class="col-lg-4 col-md-4 col-sm-12">
+                   <div class="contact-left-area"> 
+                        <div class="single-cl">
+                            <h3>Phone :  </h3>
+                            <p><i class="contact-icon fa fa-phone-alt mr-2"></i> +000 (1234) 456 88</p>
+                            <p><i class="contact-icon fa fa-phone-alt mr-2"></i> +000 (1234) 456 88</p>
+                        </div> 
+                        
+                        <div class="single-cl s-cl-2">
+                            <h3>Email : </h3>
+                            <p><i class="contact-icon fas fa-envelope mr-2"></i> example@example.com</p>
+                            <p><i class="contact-icon fas fa-envelope mr-2"></i> example@example.com</p>
+                        </div>  
+                        
+                        <div class="single-cl single-cl3">
+                            <h3>Location : </h3>
+                            <p><i class="contact-icon fa fa-home mr-2"></i> New Road , 2nd Flor,<br> Homeland , USA</p>
+                        </div>   
+                   </div>
+               </div> -->
+                <div class="offset-lg-2 off-set-md-2 col-lg-8 col-md-8 col-sm-12">
+                    <div class="contact-form">
+                      <div class="text-center section-head">
+                        <h3 class="section-title wow fadeIn">Book a <span>Discovery</span> Call</h3>
+                        <p class="text-dark">
+                            Contact us today for a discovery call. We’ll show you how to get on the winning side of the e-commerce battle for visibility, market share, and revenue growth.
+                        </p>
+                    </div>
+                      
+                        
+                        <!-- Submition status -->
+                  <div id="form-messages"></div>
+
+                        <form id="ajax-contact" class="needs-validation" novalidate>
+                            <div class="row">
+                                
+                                <div class="col-md-6">
+                                    <div class="form-group in_name">
+                                        <input type="text" name="first-name" class="form-control" id="first-name" placeholder="First Name" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>        
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_name">
+                                        <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Last Name" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>        
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email Address" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <input type="tel" name="ph-no" class="form-control" id="ph-no" placeholder="Phone Number" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <input type="text" name="company" class="form-control" id="company" placeholder="Company Name" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <input type="text" name="brand" class="form-control" id="brand" placeholder="Brand (s)" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <input type="text" name="website" class="form-control" id="website" placeholder="Website" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <select class="custom-select" required>
+                                            <option selected>Annual Business Revenue</option>
+                                            <option value="Less-than-$100k">Less than $100k</option>
+                                            <option value="$100k-$250k">$100k - $250k</option>
+                                            <option value="$250k-$500k">$250k - $500k</option>
+                                            <option value="$500k-$1M">$500k - $1M</option>
+                                            <option value="$1M-$5M">$1M - $5M</option>
+                                            <option value="$5M+">$5M+</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group in_email">
+                                        <select class="custom-select" required>
+                                            <option selected>How can we help you?</option>
+                                            <option value="Less-than-$100k">Less than $100k</option>
+                                            <option value="$100k-$250k">$100k - $250k</option>
+                                            <option value="$250k-$500k">$250k - $500k</option>
+                                            <option value="$500k-$1M">$500k - $1M</option>
+                                            <option value="$1M-$5M">$1M - $5M</option>
+                                            <option value="$5M+">$5M+</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group in_email">
+                                        <select class="custom-select" required>
+                                            <option selected>Do you currently sell on Amazon?</option>
+                                            <option value="Less-than-$100k">Less than $100k</option>
+                                            <option value="$100k-$250k">$100k - $250k</option>
+                                            <option value="$250k-$500k">$250k - $500k</option>
+                                            <option value="$500k-$1M">$500k - $1M</option>
+                                            <option value="$1M-$5M">$1M - $5M</option>
+                                            <option value="$5M+">$5M+</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group in_email">
+                                        <select class="custom-select" required>
+                                            <option selected>How soon would you like to get started?</option>
+                                            <option value="Less-than-$100k">Less than $100k</option>
+                                            <option value="$100k-$250k">$100k - $250k</option>
+                                            <option value="$250k-$500k">$250k - $500k</option>
+                                            <option value="$500k-$1M">$500k - $1M</option>
+                                            <option value="$1M-$5M">$1M - $5M</option>
+                                            <option value="$5M+">$5M+</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group in_message"> 
+                                        <textarea name="message" class="form-control" id="message" placeholder="What are your current Amazon Goals?" required></textarea>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_message"> 
+                                        <textarea name="message" class="form-control" id="message" placeholder="What are your primary Amazon Pain Points?" required></textarea>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group in_email">
+                                        <select class="custom-select" required>
+                                            <option selected>Lead source</option>
+                                            <option value="Less-than-$100k">Less than $100k</option>
+                                            <option value="$100k-$250k">$100k - $250k</option>
+                                            <option value="$250k-$500k">$250k - $500k</option>
+                                            <option value="$500k-$1M">$500k - $1M</option>
+                                            <option value="$1M-$5M">$1M - $5M</option>
+                                            <option value="$5M+">$5M+</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="actions text-center">
+                                        <button type="submit" class="btn btn-common">submit</button>
+                                         </div>
+                                </div>
+
+                                
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Contact Section End -->
+
+
+  
+    <!-- Footer Section Start -->
+    <section id="footer-top" class="footer-top-area section-big">
+        <div class="container">
+            <div class="row">
+                
+                <!-- Footer Widget -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-widget footer-col">
+                        <h3>About Us</h3>
+                        <p>Sorem Ipsum is simply dummy tex  the printing and typesetting industry corem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+                
+                <!-- Footer Widget -->
+                <div class="col-lg-3 col-md-6 col-sm-6 footer-col-2">
+                    <div class="footer-widget">
+                        <h3>Quick Link</h3>
+                        <ul class="q-link">
+                            <li><a href="">Creative Idea</a></li>
+                            <li><a href="">Marketing</a></li>
+                            <li><a href="">Privicy & Policy</a></li>
+                            <li><a href="">Terms & condition</a></li>
+                            <li><a href="">Management</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Monitoring</a></li>
+                            <li><a href="">live chart</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Footer Widget -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-widget footer-col">
+                        <h3>Latest News</h3>
+                        <div class="latest-news">
+                            <a href="">Financial express announce the sha 
+                            list from the candites</a> <br>
+                            <span>13 Jan 2021</span>
+                        </div>
+
+                        <div class="latest-news">
+                            <a href="">Financial express announce the sha 
+                            list from the candites</a> <br>
+                            <span>13 Jan 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Widget -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-widget footer-col">
+                        <h3>Contact Us</h3>
+                        <div class="s-contact">                            
+                            <p><i class="i fa fa-phone-alt"></i> <a href="tel:00112347890">+001 (1234) 7890</a></p>
+                        </div>
+  
+                         <div class="s-contact"> 
+                            <p><i class="i fa fa-map-marker-alt"></i> New Road , Homeland , USA</p>
+                        </div>
+
+                        <div class="s-contact">
+                            <p><i class="i fa fa-envelope"></i> <a href="mailto:studyplus@gmail.com">example@example.com</a></p>
+                        </div>
+                        <div class="footer-social social-top">
+                          <ul>
+                              <li><a class="color" href="#"><i class="fab fa-facebook"></i></a></li>
+                               <li><a class="color" href="#"><i class="fab fa-twitter"></i></a></li>
+                              <li><a class="color" href="#"><i class="fab fa-behance"></i></a></li>
+                              <li><a class="color" href="#"><i class="fab fa-linkedin"></i></a></li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--footer top area end -->
+
+    
+   <!-- copyright area start -->
+    <footer id="footer" class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-text">
+                        <p>All Copyrights Reserved &copy; 2020 - Designed & Developed by <a rel="nofollow" href="" class="sky-blue">VEGA</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- copyright area end -->
+    <!-- Footer Section End --> 
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lnr lnr-arrow-up"></i>
+    </a>
+
+    <div id="loader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>    
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/nivo-lightbox.js"></script>
+    <script src="js/owl.carousel.js"></script>   
+    <!--Slick Js -->
+    <!-- <script src="js/slick.min.js"></script>  -->
+    <script src="js/jquery.nav.js"></script>    
+    <script src="js/wow.js"></script>    
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/touchSwipe.js"></script>     
+    <script src="js/paradise_slider_min.js"></script>    
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
